@@ -621,98 +621,173 @@ a:hover{
     text-align: center;
 }
 
+/* HERE GONNA BE A CONTACTS */
+#contacts{
+    background-color:rgb(255, 255, 255);
+}
 
+.city{
+    display:flex;
+    justify-content:space-around;
+    padding:20px 100px;
+    font-family: 'Podkova', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(87, 87, 238);
+    -webkit-text-stroke: 1.5px #0045c0;
+}
 
+.text_city{
+    text-align: center;
+    font-family:'Podkova', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top:1.5%;
+    margin-bottom: -4%;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px #0148c4;
+}
 
+#slogan{
+    font-size: 110px;
+}
 
+.main_cty{
+    margin-top:100px;
+    height:600px;
+    
+}
 
+#map{
+    margin-top: 55px;
+    position: relative;
+    margin-left: 14%;
+    text-align: center;
+}
 
+#contacts pre{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(214, 0, 0);
+    -webkit-text-stroke: 1.5px #87130f;
+    animation: wheel-animation 2s
+    infinite;
+}
 
+#Almaty, #logo_location, #Astana, #Aqtau, #Shymkent, #Aqtobe{
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <!-- MOBILE ADAPTATION --> */
-/* @media (max-width: 600px) {
-    header {
-        flex-direction: column;
+@keyframes wheel-animation{
+    0%{
+        opacity: 1;
+        transform: translateY(-.9rem);
     }
-    .main_logo{
-        flex-direction: column;
+    100%{
+        opacity: 0;
+        transform:translateY(.9rem);
     }
-    .main_logo .main_logo_sdustore{
-        flex-direction: column;
-    }
-    .home_logo{
-        flex-direction: column;
-    }
-    .header_title{
-        flex-direction: column;
-    }
-    .search_button{
-        flex-direction: column;
-    }
-    .basket_button{
-        flex-direction: column;
-    }
-    .sdu_store p{
-        flex-direction: column;
-    }
-    .sdu_store{
-        flex-direction: column;
-    }
-    .hamburger{
-        flex-direction: column;
-    }
-    .hamburger span{
-        flex-direction: column;
-    }
-    .sidebar{
-        flex-direction: column;
-    }
-    .sidebar_menu{
-        flex-direction: column;
-    }
-    .menu_link{
-        flex-direction: column;
-    }
-    #about_us{
-        flex-direction: column;
-    }
-    .main_text h1{
-        flex-direction: column;
-    }
-    .main_text p{
-        flex-direction: column;
-    }
-    .main_text pre{
-        flex-direction: column;
-    }
-    #first_place_on_the_page{
-        flex-direction: column;
-    }
-    .image_main{
-        flex-direction: column;
-    }
-    .shape{
-        flex-direction: column;
-    }
-} */
+}
+/* HERE GONNA BE A SEND MESSAGE */
+.container{
+    width: 85%;
+    background: rgb(60, 68, 218);
+    border-radius: 6px;
+    padding: 20px 180px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color: #3cf613;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #0fd915;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+    padding-left: 380px;
+  }
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    background: #5029bc;
+  }
