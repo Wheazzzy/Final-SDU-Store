@@ -791,36 +791,32 @@ a:hover{
   .button input[type="button"]:hover{
     background: #5029bc;
   }
-
+/* HERE GONNA BE A ANY LINKS TO subscribe TO USE */
 .subscribe{
-    background-color: white;
+    background-color:rgb(255, 255, 255);
     height:200px;
     text-align: center;
 }
 
 .subscribe h1{
     font-family: 'Podkova',serif;
+    padding-top: 5px;
 }
 
 .subscribe p{
     font-family: 'Podkova',serif;
+    padding-top: 5px;
 }
 
 .lastwords{
     display: flex;
     margin:auto;
     margin-top: 5px solid;
-    padding-right: 75px;
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 35px;
     justify-content:center;
-}
+    background-color: rgb(255, 255, 255);
 
-.paragraph{
-    background-image:url(https://krot.info/uploads/posts/2022-02/1644832943_26-krot-info-p-serie-foni-26.jpg);
-    color: rgb(255, 255, 255);
-    margin:0;
-    display: flex;
 }
 
 .lastwords ul{
@@ -869,6 +865,7 @@ a:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; border-bottom: 4px soLid #dc2743;
     border-bottom: 4px solid #dc2743;
+    background-clip: text;
 }
 
 .lastwords ul li:nth-child(3) a::before{
