@@ -289,7 +289,7 @@ header{
     font-size: 500%;
     margin: 80px 0 -0.5% 100px;
     z-index: 4;
-    color:#020294;
+    color:#2c2cd2;
     flex-direction: row;
 }
 
@@ -325,6 +325,7 @@ header{
     background-size: 30%;
     height:100px;
     color: white;
+    flex-direction: row;
 }
 
 .parallax_aboutus .mask_text{
@@ -332,10 +333,12 @@ header{
     background:rgb(0, 0, 0,.6);
     width: 100%;
     z-index: 2;
+    flex-direction: row;
 }
 
 .parallax_aboutus h1{
     z-index: 3;
+    flex-direction: row;
 }
 
 .parallax_catallog {
@@ -348,6 +351,7 @@ header{
     background-size: 30%;
     height:100px;
     color: white;
+    flex-direction: row;
 }
 
 .parallax_catallog .mask_text{
@@ -355,6 +359,7 @@ header{
     background:rgb(0, 0, 0,.6);
     width: 100%;
     z-index: 2;
+    flex-direction: row;
 }
 
 .parallax_lookbook {
@@ -367,6 +372,7 @@ header{
     background-size: 30%;
     height:100px;
     color: white;
+    flex-direction: row;
 }
 
 .parallax_lookbook .mask_text{
@@ -374,6 +380,7 @@ header{
     background:rgb(0, 0, 0,.6);
     width: 100%;
     z-index: 2;
+    flex-direction: row;
 }
 
 .parallax_contacts {
@@ -386,6 +393,7 @@ header{
     background-size: 30%;
     height:100px;
     color: white;
+    flex-direction: row;
 }
 
 .parallax_contacts .mask_text{
@@ -393,24 +401,190 @@ header{
     background:rgb(0, 0, 0,.6);
     width: 100%;
     z-index: 2;
+    flex-direction: row;
 }
 
 .ct{
     background-image:url(./images/images/cat.png);
+    flex-direction: row;
 }
 
 .au{
     background-image:url(./images/images/us.png);
+    flex-direction: row;
 }
 
 .cn{
     background-image:url(./images/images/cn.png);
+    flex-direction: row;
 }
 
 .lb{
     background-image:url(./images/images/lb.png);
+    flex-direction: row;
 }
 
+/* THIS GONNA BE A CATALLOG  + IMAGE ZOOM HOVER*/
+#catalog{
+    /* padding: 8px; */
+    max-width: 100%;
+    background-color: aliceblue;
+    flex-direction: row;
+}
+
+#cat{
+    width:35%;
+    margin-top:15px;
+    margin-left: 2%;
+    flex-direction: row;
+}
+
+.parent{
+    overflow:hidden;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.twos{
+    display: flex;
+    flex-direction: row;
+}
+
+.pone{
+    width: 33%;
+    height: 500px;
+    flex-direction: row;
+}
+
+.ptwo{
+    width: 33%;
+    height:500px;
+    flex-direction: row;
+}
+
+.child{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    flex-direction: row;
+}
+
+.child a{
+    font-family: 'Podkova',serif;
+    flex-direction: row;
+}
+
+.bg-one{
+    background-image: url(./images/images/photo_4.jpg);
+    background-position: center;
+    flex-direction: row;
+}
+
+.bg-two{
+    background-image: url(./images/images/photo_3.jpg);
+    background-position: center;
+    flex-direction: row;
+
+}
+
+.bg-three{
+    background-image: url(./images/images/photo_6.jpg);
+    background-position: center;
+    flex-direction: row;
+    
+}
+
+.bg-four{
+    background-image: url(./images/images/photo_5.jpg);
+    background-position: center;
+    flex-direction: row;
+
+}
+
+.bg-five{
+    background-image: url(./images/images/photo_2.jpg);
+    background-position: center;
+    flex-direction: row;
+
+}
+
+.bg-six{
+    background-image: url(./images/images/photo_2.jpg);
+    background-position: center;
+    flex-direction: row;
+
+}
+
+.grads{
+    display:none;
+    font-size: 235%;
+    color: rgb(0, 221, 255);
+    font-family: sans-serif;
+    text-align: center;
+    margin:auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.parent:hover .child, .parent:focus .child{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform:scale(1.2);
+    flex-direction: row;
+}
+
+.parent:hover .child:before, .parent:focus .child::before{
+    display: block;
+    flex-direction: row;
+}
+
+.parent:hover a, .parent:focus a{
+    display: block;
+    flex-direction: row;
+}
+
+.child:before{
+    content: "";
+    display:none;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(90,92, 94));
+    opacity: 0.9;
+    flex-direction: row;
+}
+
+ul, ol {
+    list-style: none;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    flex-direction: row;
+}
+
+a:hover{
+    color: rgb(0, 255, 76);
+    flex-direction: row;
+}
 
 
 
@@ -442,7 +616,7 @@ header{
 
 
 /* <!-- MOBILE ADAPTATION --> */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     header {
         flex-direction: column;
     }
@@ -506,4 +680,4 @@ header{
     .shape{
         flex-direction: column;
     }
-}
+} */
