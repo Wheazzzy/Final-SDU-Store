@@ -586,6 +586,41 @@ a:hover{
     flex-direction: row;
 }
 
+.looks h4{
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Podkova', serif;
+    color:#020294;
+    text-align: center;
+}
+
+.text_photo{
+    display:flex;
+    justify-content:space-around;
+}
+
+#lookbook{
+    height:800px;
+}
+
+.photo{
+    width:400px;
+    height:650px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:30px 15px;
+    border-radius: 50px;
+}
+
+.text_photo_col:hover{
+    transform:translateY(-10px);
+}
+
+.textt{
+    text-align: center;
+}
+
 
 
 
