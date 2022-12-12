@@ -254,6 +254,67 @@ header{
 }
 
 
+.video{
+    margin-top: 100px;
+ }
+
+
+/* <!-- HERE GONNA BE A ABOUT US  --> */
+ #about_us{
+    background-color:#020294;
+    margin-top: -8px;
+    flex-direction: row;
+}
+
+.main_text h1{
+    font-family: 'Spartan', sans-serif;
+    font-size: 40px;
+    margin: 90px 0 0 100px;
+    z-index: 2;
+    color:antiquewhite;
+    flex-direction: row;
+}
+
+.main_text p{
+    font-family: 'Spartan' , sans-serif;
+    font-size: 20px;
+    margin: 20px 0 0 100px;
+    color: antiquewhite;
+    flex-direction: row;
+}
+
+.main_text pre{
+    font-family: 'Spartan' , sans-serif;
+    font-weight: bolder;
+    font-size: 500%;
+    margin: 80px 0 -0.5% 100px;
+    z-index: 4;
+    color:#2c2cd2;
+    flex-direction: row;
+}
+
+#first_place_on_the_page{
+    font-size: 90px;
+    margin-top: -4%;
+    z-index: 1;
+    color:antiquewhite;
+    flex-direction: row;
+}
+
+.image_main{
+    margin-top: -27.5%;
+    margin-left: 69%;
+    margin-bottom: 90px;
+    box-shadow: 0px 0px 40px 0.5px rgb(0, 0, 0);
+    z-index: -1;
+    flex-direction: row;
+}
+
+.shape{
+    background-color:white;
+    flex-direction: row;
+}
+
 
 /* <!-- MOBILE ADAPTATION --> */
 @media (max-width: 600px) {
@@ -297,6 +358,27 @@ header{
         flex-direction: column;
     }
     .menu_link{
+        flex-direction: column;
+    }
+    #about_us{
+        flex-direction: column;
+    }
+    .main_text h1{
+        flex-direction: column;
+    }
+    .main_text p{
+        flex-direction: column;
+    }
+    .main_text pre{
+        flex-direction: column;
+    }
+    #first_place_on_the_page{
+        flex-direction: column;
+    }
+    .image_main{
+        flex-direction: column;
+    }
+    .shape{
         flex-direction: column;
     }
 }
