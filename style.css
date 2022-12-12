@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
 *,
 *::after,
 *::before{
@@ -791,3 +791,112 @@ a:hover{
   .button input[type="button"]:hover{
     background: #5029bc;
   }
+
+.subscribe{
+    background-color: white;
+    height:200px;
+    text-align: center;
+}
+
+.subscribe h1{
+    font-family: 'Podkova',serif;
+}
+
+.subscribe p{
+    font-family: 'Podkova',serif;
+}
+
+.lastwords{
+    display: flex;
+    margin:auto;
+    margin-top: 5px solid;
+    padding-right: 75px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    justify-content:center;
+}
+
+.paragraph{
+    background-image:url(https://krot.info/uploads/posts/2022-02/1644832943_26-krot-info-p-serie-foni-26.jpg);
+    color: rgb(255, 255, 255);
+    margin:0;
+    display: flex;
+}
+
+.lastwords ul{
+    position: relative;
+    display: flex;
+}
+
+.lastwords ul li{
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.lastwords ul li a{
+    text-decoration: none;
+}
+
+.lastwords ul li a .fa-brands{
+    font-size: 6em;
+    color: #222;
+}
+
+.lastwords ul li a::before{
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 6em;
+    height:0;
+    overflow: hidden;
+    transition:0.5s ease-in-out;
+}
+
+.lastwords ul li:nth-child(1) a::before {
+    content: "\f2c6";
+    color: #2da1da;
+    border-bottom: 4px solid #2da1da;
+}
+
+.lastwords ul li:nth-child(2) a::before {
+    content: "\f16d";
+    background-image: linear-gradient(45deg, #f09433
+    0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; border-bottom: 4px soLid #dc2743;
+    border-bottom: 4px solid #dc2743;
+}
+
+.lastwords ul li:nth-child(3) a::before{
+    content: "\f009";
+    color: #1da1f2;
+    border-bottom: 4px solid #1da1f2;
+}
+
+.lastwords ul li:nth-child(4) a::before{
+    content: "\f167";
+    color:red;
+    border-bottom: 4px solid red;
+}
+
+.lastwords ul li:hover a::before{
+    height:100%;
+}
+
+nav{
+    float:left;
+}
+
+label{
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display:none;
+}
+
+#toggle{
+    display:none;
+}
