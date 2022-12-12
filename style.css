@@ -290,4 +290,13 @@ header{
     .hamburger span{
         flex-direction: column;
     }
+    .sidebar{
+        flex-direction: column;
+    }
+    .sidebar_menu{
+        flex-direction: column;
+    }
+    .menu_link{
+        flex-direction: column;
+    }
 }
