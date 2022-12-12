@@ -289,7 +289,7 @@ header{
     font-size: 500%;
     margin: 80px 0 -0.5% 100px;
     z-index: 4;
-    color:#2c2cd2;
+    color:#020294;
     flex-direction: row;
 }
 
@@ -314,6 +314,131 @@ header{
     background-color:white;
     flex-direction: row;
 }
+
+.parallax_aboutus {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    font-size: 60px;
+    background-size: 30%;
+    height:100px;
+    color: white;
+}
+
+.parallax_aboutus .mask_text{
+    position:relative;
+    background:rgb(0, 0, 0,.6);
+    width: 100%;
+    z-index: 2;
+}
+
+.parallax_aboutus h1{
+    z-index: 3;
+}
+
+.parallax_catallog {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    font-size: 60px;
+    background-size: 30%;
+    height:100px;
+    color: white;
+}
+
+.parallax_catallog .mask_text{
+    position:relative;
+    background:rgb(0, 0, 0,.6);
+    width: 100%;
+    z-index: 2;
+}
+
+.parallax_lookbook {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    font-size: 60px;
+    background-size: 30%;
+    height:100px;
+    color: white;
+}
+
+.parallax_lookbook .mask_text{
+    position:relative;
+    background:rgb(0, 0, 0,.6);
+    width: 100%;
+    z-index: 2;
+}
+
+.parallax_contacts {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    font-size: 60px;
+    background-size: 30%;
+    height:100px;
+    color: white;
+}
+
+.parallax_contacts .mask_text{
+    position:relative;
+    background:rgb(0, 0, 0,.6);
+    width: 100%;
+    z-index: 2;
+}
+
+.ct{
+    background-image:url(./images/images/cat.png);
+}
+
+.au{
+    background-image:url(./images/images/us.png);
+}
+
+.cn{
+    background-image:url(./images/images/cn.png);
+}
+
+.lb{
+    background-image:url(./images/images/lb.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* <!-- MOBILE ADAPTATION --> */
