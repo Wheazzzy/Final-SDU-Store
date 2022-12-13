@@ -584,12 +584,10 @@ ul, ol {
 a {
     text-decoration: none;
     flex-direction: row;
-    flex-direction: row;
 }
 
 a:hover{
     color: rgb(0, 255, 76);
-    flex-direction: row;
     flex-direction: row;
 }
 

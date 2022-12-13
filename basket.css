@@ -78,3 +78,46 @@ header{
     color:antiquewhite;
     flex-direction: row;
 }
+/* HERE GONNA BE A MAIN CONTENT */
+.main_content{
+    padding: 40px;
+    background-image: url("./images/images/bs.png");;
+    background-size: 7%;
+    height:800px;
+}
+
+.content{
+    margin:60px 4.5%;
+    background-color: rgb(255, 255, 255);
+    height:800px;
+}
+
+#h1{
+    color:#020294;
+    font-family: 'Podkova',serif;
+    font-size: 500%;
+    padding-top:120px;
+    text-align:center;
+}
+
+ul, ol {
+    list-style: none;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    flex-direction: row;
+}
+
+a:hover{
+    color: rgb(0, 255, 76);
+    flex-direction: row;
+}
+
+.footer{
+    background-color: #1053e3;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
