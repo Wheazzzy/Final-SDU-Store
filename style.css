@@ -942,4 +942,11 @@ label{
     flex-direction: row;
 }
 
+.footer{
+    background-color: #1053e3;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
 /* MOBILE ADAPTATION  */

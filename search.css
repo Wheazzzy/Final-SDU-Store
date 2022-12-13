@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* <!-- This is gonna be header main site for SDU-Store --> */
+header{
+    display: flex;
+    background-color: #020294;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    height: 85px;
+    z-index: 3;
+    flex-direction: row;
+}
+
+.main_logo{
+    display: flex;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: #020294;
+    flex-direction: row;
+}
+
+.main_logo .main_logo_sdustore{
+    height: 45px;
+    flex-direction: row;
+}
+
+.home_logo{
+    display: flex;
+    background-color: #020294;
+    margin: 10px 20px 50px 20px;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.header_title{
+    display: flex;
+    padding: 20px 90px 20px 10px;
+    flex-direction: row;
+}
+
+.search_button{
+    background:#020294;
+    margin: 0px 10px;
+    flex-direction: row;
+}
+
+.basket_button{
+    background:#020294;
+    margin: 0px 10px;
+    flex-direction: row;
+}
+
+.sdu_store p{
+    margin-top: 8px;
+    flex-direction: row;
+}
+
+.sdu_store{
+    padding-left: 5px;
+    font-family: 'Podkova',serif;
+    font-size: 40px;
+    color:antiquewhite;
+    flex-direction: row;
+}
