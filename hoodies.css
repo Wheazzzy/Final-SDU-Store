@@ -236,6 +236,7 @@ header{
 }
 
 /* <!-- HERE GONNA BE A SIDEBAR OF SDU-STORE --> */
+
 .sidebar {
     position: fixed;
     top: 85px;
@@ -249,7 +250,7 @@ header{
     transition: all .5s cubic-bezier(1, 0, 0, 1);
 }
 
-.sidebar__menu {
+.sidebar_menu {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,7 +258,7 @@ header{
     height: 50%;
 }
 
-.menu__link {
+.menu_link {
     font-size: 35px;
     font-family: 'Podkova',serif;
     color: #fff;
@@ -266,6 +267,7 @@ header{
 .sidebar.active {
     transform: translateX(0);
 }
+
 
 /* <!--------- HERE GONNA BE A SIDEBAR OF SDU-STORE ------------>  */
 .content {
@@ -305,6 +307,7 @@ header{
     padding-bottom: 12px;
 }
 
+
 .imageblock_1{
     width: 300px;
     height: 300px;
@@ -340,3 +343,88 @@ header{
     background: url("./images/images/Hoodie_6.jpg") no-repeat;
     background-size:300px;
 }
+
+.imageblock_4{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Look_hodie1.png");
+    background-size: 300px;
+}
+
+.imageblock_4:hover{
+    background: url("./images/images/Look_hoodie2.png") no-repeat;
+    background-size:300px;
+}
+
+.imageblock_5{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Look_hoodie3.png");
+    background-size: 300px;
+}
+
+.imageblock_5:hover{
+    background: url("./images/images/Look_hoodie4.png") no-repeat;
+    background-size:300px;
+}
+
+.coast{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.button{
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color:transparent;
+    border-radius:14px;
+    border:3px solid #0045c0;
+    padding: 6px 20px;
+}
+
+.nameblock{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.footer{
+    background:rgb(3, 106, 232);
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(255, 255, 255);
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
