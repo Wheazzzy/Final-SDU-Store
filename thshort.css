@@ -13,6 +13,21 @@ body{
     padding: 0 auto;
 }
 
+ul, ol {
+    list-style: none;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    flex-direction: row;
+}
+
+a:hover{
+    color: rgb(0, 255, 76);
+    flex-direction: row;
+}
+
 /* <!-- This is gonna be header main site for SDU-Store --> */
 header{
     display: flex;
@@ -257,8 +272,8 @@ header{
 /* <!--------- HERE GONNA BE A SIDEBAR OF SDU-STORE ------------>  */
 .content {
     padding: 40px;
-    background: url("./images/images/Hoodiedbg.png");
-    background-size: 10%;
+    background: url("./images/images/T-shirt-bg.jpg");
+    background-size: 7%;
 }
 
 .nameblock{
@@ -301,7 +316,7 @@ header{
 }
 
 .imageblock_1:hover{
-    background: url("./images/images/Hoodie_1.png") no-repeat;
+    background: url("./images/images/Look_T-shirt-4.png") no-repeat;
     background-size:300px;
 }
 
@@ -313,7 +328,7 @@ header{
 }
 
 .imageblock_2:hover{
-    background: url("./images/images/Hoodie_3.jpg") no-repeat;
+    background: url("./images/images/Look_T-shirt-1.png") no-repeat;
     background-size:300px;
 }
 
@@ -325,7 +340,7 @@ header{
 }
 
 .imageblock_3:hover{
-    background: url("./images/images/Hoodie_6.jpg") no-repeat;
+    background: url("./images/images/Look_T-shirt-3.png") no-repeat;
     background-size:300px;
 }
 
@@ -337,7 +352,7 @@ header{
 }
 
 .imageblock_4:hover{
-    background: url("./images/images/Look_hoodie2.png") no-repeat;
+    background: url("./images/images/Look_T-shirt-2.png") no-repeat;
     background-size:300px;
 }
 
@@ -349,7 +364,7 @@ header{
 }
 
 .imageblock_5:hover{
-    background: url("./images/images/Look_hoodie4.png") no-repeat;
+    background: url("./images/images/Look_T-shirt-5.png") no-repeat;
     background-size:300px;
 }
 
@@ -361,7 +376,7 @@ header{
 }
 
 .imageblock_6:hover{
-    background: url("./images/images/Look_hoodie4.png") no-repeat;
+    background: url("./images/images/Look_T-shirt-3.png") no-repeat;
     background-size:300px;
 }
 
@@ -425,3 +440,5 @@ header{
     font-size:2em;
     margin:0% 1%;
     }
+
+    
