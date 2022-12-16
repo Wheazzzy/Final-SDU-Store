@@ -80,7 +80,7 @@ header{
 /*------content------*/
 .content{
 	padding: 40px;
-    background-image: linear-gradient(to bottom, rgba(25, 4, 255, 0.52), rgba(34, 33, 33, 0.53)), url("./img/s.png");
+    background-image: linear-gradient(to bottom, rgba(25, 4, 255, 0.52), rgba(34, 33, 33, 0.53)), url("./images/images/search.png");
     background-size: 4%;
     height: 780px;
 
