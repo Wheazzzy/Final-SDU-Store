@@ -313,7 +313,7 @@ header{
 }
 
 .imageblock_1:hover{
-    background: url("./images/images/Look_T-shirt-4.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-2.png") no-repeat;
     background-size:300px;
 }
 
@@ -325,7 +325,7 @@ header{
 }
 
 .imageblock_2:hover{
-    background: url("./images/images/Look_T-shirt-1.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-1.png") no-repeat;
     background-size:300px;
 }
 
@@ -337,7 +337,7 @@ header{
 }
 
 .imageblock_3:hover{
-    background: url("./images/images/Look_T-shirt-3.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-3.png") no-repeat;
     background-size:300px;
 }
 
@@ -349,7 +349,7 @@ header{
 }
 
 .imageblock_4:hover{
-    background: url("./images/images/Look_T-shirt-2.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-4.png") no-repeat;
     background-size:300px;
 }
 
@@ -361,7 +361,7 @@ header{
 }
 
 .imageblock_5:hover{
-    background: url("./images/images/Look_T-shirt-5.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-5.png") no-repeat;
     background-size:300px;
 }
 
@@ -373,7 +373,7 @@ header{
 }
 
 .imageblock_6:hover{
-    background: url("./images/images/Look_T-shirt-3.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-3.png") no-repeat;
     background-size:300px;
 }
 
@@ -386,6 +386,52 @@ header{
 }
 
 .imageblock_7:hover{
-    background: url("./images/images/Look_T-shirt-3.png") no-repeat;
+    background: url("./images/images/Look_shopperbag-5.png") no-repeat;
     background-size:300px;
+}
+
+.imageblock_8{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Cap-1.png");
+    background-size: 300px;
+}
+
+.imageblock_8:hover{
+    background: url("./images/images/Look_Cap-1.png") no-repeat;
+    background-size:300px;
+}
+
+.imageblock_9{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Cap-2.png");
+    background-size: 300px;
+}
+
+.imageblock_9:hover{
+    background: url("./images/images/Look_Cap-2.png") no-repeat;
+    background-size:300px;
+}
+
+.coast{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.button{
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color:transparent;
+    border-radius:14px;
+    border:3px solid #0045c0;
+    padding: 6px 20px;
+}
+
+.nameblock{
+    font-size: 30px;
+    padding-left: 30px;
 }
