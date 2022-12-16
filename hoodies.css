@@ -292,10 +292,10 @@ header{
 .rowblock{
     display: flex;
     justify-content: space-around;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Podkova',serif;
     font-size: 20px;
     color:#0045c0;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 .cardblock{
@@ -306,8 +306,37 @@ header{
 }
 
 .imageblock_1{
-    width:300px;
-    height:300px
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Hoodie_2.jpg");
     background-size: 300px;
-    
+}
+
+.imageblock_1:hover{
+    background: url("./images/images/Hoodie_1.png") no-repeat;
+    background-size:300px;
+}
+
+.imageblock_2{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Hoodie_4.jpg");
+    background-size: 300px;
+}
+
+.imageblock_2:hover{
+    background: url("./images/images/Hoodie_3.jpg") no-repeat;
+    background-size:300px;
+}
+
+.imageblock_3{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Hoodie_5.jpg");
+    background-size: 300px;
+}
+
+.imageblock_3:hover{
+    background: url("./images/images/Hoodie_6.jpg") no-repeat;
+    background-size:300px;
 }
