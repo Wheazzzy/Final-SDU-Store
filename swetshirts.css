@@ -311,7 +311,7 @@ header{
 .imageblock_1{
     width: 300px;
     height: 300px;
-    background: url("./images/images/T-shirt-1.jpg");
+    background: url("./images/images/Swetshirt-1.jpg");
     background-size: 300px;
 }
 
@@ -323,7 +323,7 @@ header{
 .imageblock_2{
     width: 300px;
     height: 300px;
-    background: url("./images/images/T-shirt-2.jpg");
+    background: url("./images/images/Swetshirt-2.jpg");
     background-size: 300px;
 }
 
@@ -335,7 +335,7 @@ header{
 .imageblock_3{
     width: 300px;
     height: 300px;
-    background: url("./images/images/T-shirt-3.jpg");
+    background: url("./images/images/Swetshirt-3.jpg");
     background-size: 300px;
 }
 
@@ -347,7 +347,7 @@ header{
 .imageblock_4{
     width: 300px;
     height: 300px;
-    background: url("./images/images/T-shirt-4.jpg");
+    background: url("./images/images/Swetshirt-4.jpg");
     background-size: 300px;
 }
 
@@ -359,7 +359,7 @@ header{
 .imageblock_5{
     width: 300px;
     height: 300px;
-    background: url("./images/images/T-shirt-5.jpg");
+    background: url("./images/images/Swetshirt-5.jpg");
     background-size: 300px;
 }
 
@@ -371,11 +371,23 @@ header{
 .imageblock_6{
     width: 300px;
     height: 300px;
-    background: url("./images/images/T-shirt-6.jpg");
+    background: url("./images/images/Swetshirt-6.jpg");
     background-size: 300px;
 }
 
 .imageblock_6:hover{
+    background: url("./images/images/Look_T-shirt-3.png") no-repeat;
+    background-size:300px;
+}
+
+.imageblock_7{
+    width: 300px;
+    height: 300px;
+    background: url("./images/images/Swetshirt-7.jpg");
+    background-size: 300px;
+}
+
+.imageblock_7:hover{
     background: url("./images/images/Look_T-shirt-3.png") no-repeat;
     background-size:300px;
 }
