@@ -1,4 +1,4 @@
-//This is code open hamuburger item and you can see the contents
+//-----------------This is code open hamuburger item and you can see the contents-----------
 let sidebar = document.querySelector('#sidebar');
 let hamburger = document.querySelector('.hamburger');
 
@@ -11,10 +11,10 @@ function openHamburger(){
         hamburger.classList.add('open');
     }
 }
-// END HERE hamburger
+//------------- END HERE hamburger------------------------
 
-//HERE GONNA BE LIKE WHEN YOU NAVIGATE TO BUTTON IT'S GONNA BE BIGGER, 
-//AND WHEN YOU OUT THIS BUTTON IT GONNA BE A SMALL
+//----------HERE GONNA BE LIKE WHEN YOU NAVIGATE TO BUTTON IT'S GONNA BE BIGGER, 
+//AND WHEN YOU OUT THIS BUTTON IT GONNA BE A SMALL---------------------------------------
 function big(element){
     element.style.fontSize = "50px";
 }
@@ -22,8 +22,9 @@ function big(element){
 function small(element){
     element.style.fontSize = "40px";
 }
-// END HERE BIG SMALL
+// -------------------------END HERE BIG SMALL------------------------------
 
+//---------------THIS FUNCTION WORKING LIKE THIS WHEN YOU NAVIGATE TO CITY AND CLICK IT CHANGED-------------------------
 function change(element){
     let a = element.innerHTML;
     switch(a){
@@ -52,5 +53,15 @@ function change(element){
             document.getElementById("slogan").innerHTML=" Aqtobe, Mametova 4";
             document.getElementById("number").innerHTML="+7-777-70-78 || +7-747-189-56-16";
             break;    
+    }
+}
+// -----------------------------END CHANGE FUNCTION-------------------------------------------
+
+function search(element){
+    let b = element.innerHTML;
+    switch(b){
+        case "Find":
+            document.getElementById("h").innerHTML="No results sorry :(";
+            break;
     }
 }
