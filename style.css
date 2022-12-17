@@ -656,7 +656,7 @@ a:hover{
 }
 
 #slogan{
-    font-size: 110px;
+    font-size: 50px;
     flex-direction: row;
 }
 
@@ -675,7 +675,7 @@ a:hover{
 }
 
 #contacts pre{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     color:rgb(214, 0, 0);
     -webkit-text-stroke: 1.5px #87130f;

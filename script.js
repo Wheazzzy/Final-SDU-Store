@@ -1,3 +1,4 @@
+//This is code open hamuburger item and you can see the contents
 let sidebar = document.querySelector('#sidebar');
 let hamburger = document.querySelector('.hamburger');
 
@@ -8,5 +9,28 @@ function openHamburger(){
     }else{
         sidebar.classList.add('active');
         hamburger.classList.add('open');
+    }
+}
+// END HERE hamburger
+
+//HERE GONNA BE LIKE WHEN YOU NAVIGATE TO BUTTON IT'S GONNA BE BIGGER, 
+//AND WHEN YOU OUT THIS BUTTON IT GONNA BE A SMALL
+function big(element){
+    element.style.fontSize = "50px";
+}
+
+function small(element){
+    element.style.fontSize = "45px";
+}
+// END HERE BIG SMALL
+
+function change(element){
+    let a = element.innerHTML;
+    switch(a){
+        case "-Almaty 'SDU-Store'-":
+            document.getElementById("map").src="./images/almaty.png";
+            document.getElementById("slogan").innerHTML="Almaty, Mametova 47 & Rozybakieva 247a, SDU-Store(Suleyman Demirel University)";
+            document.getElementById("number").innerHTML="+7-747-189-56-16 || +7-778-948-98-00";
+            break;
     }
 }
