@@ -14,6 +14,148 @@
     <title>Panama&Cups</title>
 </head>
 <body>
+<!--------------- This is gonna be header main site for SDU-Store --------------->
+<header>
+    <div class="main_logo">
+        <button class="home_logo">
+            <a href="./index.html" title="Home" class="sdusvg"><img class="main_logo_sdustore" src="./images/images/SDU-Store.png"></a>  
+        </button>
+        <div class="sdu_store">
+            <p>SDU-Store</p>
+        </div> 
+    </div>
+    <div class="header_title">
+        <button class="basket_button">
+            <a href="./basket.html" title="basket" class="basketsvg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+            </a>
+        </button>
+        <button class="search_button" title="search" class="searchsvg">
+            <a href="./search.html" title="search" class="searchsvg"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </a>
+        </button>
+        <button class="hamburger" onclick="openHamburger()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!--------------------END HERE-------------------->
+
+<!--------- HERE GONNA BE A SIDEBAR OF SDU-STORE ------------> 
+<div class="sidebar" id="sidebar">
+    <ul class="sidebar_menu">
+        <li class="menu_item">
+            <a href="./hoodies.html" class="menu_link" span style="color:rgb(3, 228, 3);">Hoodies</a>
+        </li>
+        <li class="menu_item">
+            <a href="#" class="menu_link" span style="color:rgb(3, 228, 3);">Look Hoodies</a>
+        </li>
+        <li class="menu_item">
+            <a href="" class="menu_link" span style="color:rgb(3, 228, 3);">T-Shirt</a>
+        </li>
+        <li class="menu_item">
+            <a href="" class="menu_link" span style="color:rgb(3, 228, 3);">Caps</a>
+        </li>
+        <li class="menu_item">
+            <a href="" class="menu_link" span style="color:rgb(3, 228, 3);">Shopperbag</a>
+        </li>
+        <li class="menu_item">
+            <a href="" class="menu_link" span style="color:rgb(3, 228, 3);">Sweatshirts</a>
+        </li>
+        <li class="menu_item">
+            <a href="" class="menu_link">Cups&Panama</a>
+        </li>
+    </ul>
+</div>
+<!--------------------END HERE-------------------->
+
+<!---------HERE GONNA BE A MAIN CATALOG------------->
+<main>
+    <div class="content">
+        <div class="nameblock1" id="hoodies"></div>
+        <div class="nameblock" id="hoodeis">#Panama&Cups</div>
+        <div class="rowblock">
+            <div class="cardblock">
+                <div class="imageblock_1" ></div>
+                <div class="name_element">Cups, Color:Dark</div>
+                <div class="coast">Price: 6900KZT</div>
+                <a class="button" href="basket.html">Buy Now</a>
+            </div>
+            <div class="cardblock">
+                <div class="imageblock_2"></div>
+                <div class="name_element">Cups, Color: Light Brown</div>
+                <div class="coast">Price: 6900KZT</div>
+                <a class="button" href="basket.html">Buy Now</a>
+            </div>
+            <div class="cardblock">
+                <div class="imageblock_3"></div>
+                <div class="name_element">Cups, Color: Light Brown</div>
+                <div class="coast">Price: 7500KZT</div>
+                <a class="button" href="basket.html">Buy Now</a>
+            </div>
+            <div class="cardblock">
+                <div class="imageblock_4"></div>
+                <div class="name_element">Cups, Color:Dark</div>
+                <div class="coast">Price: 7500KZT</div>
+                <a class="button" href="basket.html">Buy Now</a>
+            </div>
+            
+        </div>
+        <div class="rowblock">
+            <div class="cardblock" >
+                <div class="imageblock_5"></div>
+                <div class="name_element">Panama, Color: Light Brown</div>
+                <div class="coast">Price: 7500KZT</div>
+                <a class="button" href="basket.html">Buy Now</a>
+            </div>
+            <div class="cardblock">
+                <div class="imageblock_6"></div>
+                <div class="name_element">Panama, Color: White</div>
+                <div class="coast">Price: 7500KZT</div>
+                <a class="button" href="basket.html">Buy Now</a>
+            </div>
+        </div>
+</main>
+
+<!--------------------END HERE-------------------->
+
+<!-------Footer----------->
+<footer>
+    <div class="footer"> 
+        <div class="row">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
     
+    <div class="row">
+    Copyright © 2022 SDU-Store - All rights reserved || Designed By: Ossipov Alexander 
+    </div>
+    </div>
+<!--------------------END HERE-------------------->
+
+
+
+
+
+<script type="text/javascript" src=script.js></script>      
 </body>
 </html>
