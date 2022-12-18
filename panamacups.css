@@ -424,6 +424,18 @@ header{
             font-size: 30px;
             padding-left: 30px;
         }
+        .footer{
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+            }
     }
     
     @media(max-width:740px) {
@@ -454,24 +466,17 @@ header{
             height: 36px;
         }
         .footer{
-            display:grid;
-            font-size: 15px;
-        }
-        footer .row{
-            font-size: 20px;
-            height:5%;
-        }
-        .footer .row a{
-            font-size: 12px;
-        }
-        .footer .row ul{
-            font-size: 15px;
-            width:10%;
-            margin-left:140px;
-        }
-        .footer .row a i{
-            font-size: 22px;
-        }
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+            }
     }
     
     @media(max-width:630px){
@@ -502,24 +507,17 @@ header{
             height: 36px;
         }
         .footer{
-            display:grid;
-            font-size: 15px;
-        }
-        footer .row{
-            font-size: 20px;
-            height:5%;
-        }
-        .footer .row a{
-            font-size: 12px;
-        }
-        .footer .row ul{
-            font-size: 15px;
-            width:10%;
-            margin-left:140px;
-        }
-        .footer .row a i{
-            font-size: 22px;
-        }
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+            }
     }
     
     @media(max-width:605px){
@@ -550,24 +548,17 @@ header{
             height: 36px;
         }
         .footer{
-            display:grid;
-            font-size: 15px;
-        }
-        footer .row{
-            font-size: 20px;
-            height:5%;
-        }
-        .footer .row a{
-            font-size: 12px;
-        }
-        .footer .row ul{
-            font-size: 15px;
-            width:10%;
-            margin-left:140px;
-        }
-        .footer .row a i{
-            font-size: 22px;
-        }
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+            }
     }
     
     @media(max-width:400px){
@@ -598,24 +589,17 @@ header{
             height: 36px;
         }
         .footer{
-            display:grid;
-            font-size: 15px;
-        }
-        footer .row{
-            font-size: 20px;
-            height:5%;
-        }
-        .footer .row a{
-            font-size: 12px;
-        }
-        .footer .row ul{
-            font-size: 15px;
-            width:10%;
-            margin-left:140px;
-        }
-        .footer .row a i{
-            font-size: 22px;
-        }
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+            }
     }
     
     @media(max-width:200px){
@@ -646,22 +630,15 @@ header{
             height: 36px;
         }
         .footer{
-            display:grid;
-            font-size: 15px;
-        }
-        footer .row{
-            font-size: 20px;
-            height:5%;
-        }
-        .footer .row a{
-            font-size: 12px;
-        }
-        .footer .row ul{
-            font-size: 15px;
-            width:10%;
-            margin-left:140px;
-        }
-        .footer .row a i{
-            font-size: 22px;
-        }
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+            }
     }
