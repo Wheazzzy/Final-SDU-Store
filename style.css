@@ -989,3 +989,186 @@ label{
     margin:0% 3%;
     }
 }
+
+@media(max-width:1630px){
+    .city{
+        font-size: 30px;
+        padding:20px 50px;
+    }
+}
+
+@media(max-width:1520px){
+    #first_place_on_the_page{
+        font-size: 30px;
+    }
+    .main_text pre{
+        font-size: 70px;
+    }
+}
+
+@media(max-width:1400px){
+    .city{
+        font-size: 18px;
+        padding: 20px 50px;
+    }
+    .main_text h1{
+        margin: 180px 0 0 25px;
+    }
+    .main_text p{
+        margin: 10px 0 0 30px;
+    }
+    .main_text pre{
+        font-size: 25px;
+        margin: 10px 0 -1% 55px;
+    }
+    #first_place_on_the_page{
+        font-size: 25px;
+        margin-top: -3%;
+    }
+}
+
+@media (max-width:1260px) {
+    .photo{
+        width:310px;
+        height: 310px;
+    }
+    #lookbook{
+        height:650px;
+    }
+    .city{
+        display:grid;
+        font-size: 45px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
+
+@media(max-width:1100px){
+    .text_city{
+        font-size: 21px;
+    }
+    .main_text h1{
+        margin: 180px 0 0 25px;
+    }
+    .main_text p{
+        margin: 10px 0 0 30px;
+        font-size: 25px;
+    }
+    .main_text pre{
+        font-size: 25px;
+        margin: 10px 0 -1% 30px;
+    }
+    #first_place_on_the_page{
+        font-size: 25px;
+        margin-top: -3%;
+    }
+}
+
+@media(max-width:950px){
+    .photo{
+        width:250px;
+        height:450px;
+    }
+    #lookbook{
+        height: 600px;
+    }
+    .subscribe{
+        font-size: 10px;
+    }
+    .main_text h1{
+        margin: 100px 0 0 30px;
+    }
+    .main_text pre{
+        font-size:35px;
+    }
+    #first_place_on_the_page{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:830px){
+    .image_1{
+        width:30%;
+        margin-left: 65%;
+    }
+}
+
+@media(max-width:790px){
+    .photo{
+        width: 200px;
+        height: 400px;
+        padding: 15px 15px;
+    }
+    #lookbook{
+        height: 550px;
+    }
+    .textt h4{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:740px){
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .footer{
+        text-align:center;
+        padding:5%;
+        }
+        .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:center;
+        }
+        .footer .row a i{
+        margin:0% 3%;
+        }
+}
+
+@media(max-width:700px){
+    .image_1{
+        margin-bottom: -50%;
+        box-shadow: 0px 0px 20px 0.5px rgb(0, 0, 0);
+        margin-left: 55%;
+        z-index: -1;
+        margin-bottom: 70px;
+        width: 35%;
+    }
+}
+
+@media (max-width:640px) {
+    .text_photo{
+        display: grid;
+        justify-content: space-around;
+    }
+    .photo{
+        width: 300px;
+        height: 550px;
+    }
+    #lookbook{
+        height: 2050px;
+    }
+}
