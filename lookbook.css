@@ -371,4 +371,210 @@ a:hover{
     font-size:2em;
     margin:0% 1%;
     }
-      
+
+@media(max-width:1200px){
+    .imageblock_1{
+        display: grid;
+        width:200px;
+        height:400px;
+        background-size: 100%;
+        border-radius: 10%;
+    }
+    .imageblock_2{
+        display: grid;
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    .imageblock_3{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    .imageblock_4{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    .footer{
+        text-align:center;
+        padding:5%;
+        }
+        .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:center;
+        }
+        .footer .row a i{
+        margin:0% 3%;
+        }
+}    
+
+@media(max-width:740px){
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .imageblock_1{
+        width:200px;
+        height:400px;
+        background-size: 100%;
+        border-radius: 10%;
+    }
+    .imageblock_2{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    .imageblock_3{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    .imageblock_4{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    .footer{
+        text-align:center;
+        padding:5%;
+        }
+        .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:center;
+        }
+        .footer .row a i{
+        margin:0% 3%;
+        }
+        .rowblock{
+            font-size: 10px;
+        }
+        .button{
+        font-size: 10px;
+        }
+}
+@media(max-width:640px) {
+    
+}
+.imageblock_1{
+    width: 150px;
+    height: 300px;
+}
+
+.imageblock_2{
+    width: 100px;
+    height: 100px;
+}
+
+.imageblock_3{
+    width: 100px;
+    height: 100px;
+}
+.rowblock{
+    font-size: 10px;
+}
+.button{
+    font-size: 10px;
+}
+.sdu_store{
+    font-size: 23px;
+}
+.sdu_store p{
+    margin-top: 8px;
+}
+.main_logo_sdustore{
+    height:40px;
+}
+.header{
+    height:50px;
+}
+.sidebar{
+    top:80px;
+    width:250px;
+}
+.menu_link{
+    font-size: 35px;
+}
+.hamburger span{
+    height:5px;
+}
+.hamburger{
+    width:36px;
+    height: 36px;
+}
+
+@media (max-width:605px) {
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+@media (max-width:500px) {
+.rowblock{
+    display: grid;
+}
+.imageblock_1{
+    width: 200px;
+    height: 400px;
+    background-size: 100%;
+    border-radius: 10%;
+}
+
+.imageblock_2{
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+}
+
+.imageblock_3{
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+}
+}
+}
