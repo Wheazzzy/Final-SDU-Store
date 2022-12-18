@@ -451,7 +451,7 @@ a:hover{
         top:80px;
         width:250px;
     }
-    .menu_link{
+    .menu__link{
         font-size: 35px;
     }
     .hamburger span{
@@ -493,6 +493,9 @@ a:hover{
         }
         .footer .row a i{
         margin:0% 3%;
+    }
+    .rowblock{
+        display: grid;
     }
 }
 
@@ -536,6 +539,9 @@ a:hover{
     .button{
         font-size: 10px;
     }
+    .rowblock{
+        display: grid;
+    }
 }
 
 @media(max-width:605px){
@@ -555,7 +561,7 @@ a:hover{
         top:80px;
         width:250px;
     }
-    .menu_link{
+    .menu__link{
         font-size: 35px;
     }
     .hamburger span{
@@ -597,6 +603,9 @@ a:hover{
         }
         .footer .row a i{
         margin:0% 3%;
+    }
+    .rowblock{
+        display: grid;
     }
 }
 

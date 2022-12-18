@@ -371,4 +371,268 @@ a:hover{
     font-size:2em;
     margin:0% 1%;
     }
-      
+    @media(max-width:1100px){
+        .imageblock_1{
+            width:200px;
+            height:400px;
+            background-size: 100%;
+            border-radius: 10%;
+        }
+        .imageblock_2{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_3{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_4{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .footer{
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+        }
+        .sdu_store{
+            font-size: 23px;
+        }
+        .sdu_store p{
+            margin-top: 8px;
+        }
+        .main_logo_sdustore{
+            height:40px;
+        }
+        .header{
+            height:50px;
+        }
+        .sidebar{
+            top:80px;
+            width:250px;
+        }
+        .menu_link{
+            font-size: 35px;
+        }
+        .hamburger span{
+            height:5px;
+        }
+        .hamburger{
+            width:36px;
+            height: 36px;
+        }
+    }    
+    
+    @media(max-width:740px){
+        .sdu_store{
+            font-size: 23px;
+        }
+        .sdu_store p{
+            margin-top: 8px;
+        }
+        .main_logo_sdustore{
+            height:40px;
+        }
+        .header{
+            height:50px;
+        }
+        .sidebar{
+            top:80px;
+            width:250px;
+        }
+        .menu__link{
+            font-size: 35px;
+        }
+        .hamburger span{
+            height:5px;
+        }
+        .hamburger{
+            width:36px;
+            height: 36px;
+        }
+        .imageblock_1{
+            width:200px;
+            height:400px;
+            background-size: 100%;
+            border-radius: 10%;
+        }
+        .imageblock_2{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_3{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_4{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .footer{
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+        }
+        .rowblock{
+            display: grid;
+        }
+    }
+    
+    @media(max-width:640px){
+        .imageblock_1{
+            width:200px;
+            height:400px;
+            background-size: 100%;
+            border-radius: 10%;
+        }
+        .imageblock_2{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_3{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_4{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .footer{
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+        }
+        .rowblock{
+            font-size: 10px;
+        }
+        .button{
+            font-size: 10px;
+        }
+        .rowblock{
+            display: grid;
+        }
+    }
+    
+    @media(max-width:605px){
+        .sdu_store{
+            font-size: 23px;
+        }
+        .sdu_store p{
+            margin-top: 8px;
+        }
+        .main_logo_sdustore{
+            height:40px;
+        }
+        .header{
+            height:50px;
+        }
+        .sidebar{
+            top:80px;
+            width:250px;
+        }
+        .menu__link{
+            font-size: 35px;
+        }
+        .hamburger span{
+            height:5px;
+        }
+        .hamburger{
+            width:36px;
+            height: 36px;
+        }
+        .imageblock_1{
+            width:200px;
+            height:400px;
+            background-size: 100%;
+            border-radius: 10%;
+        }
+        .imageblock_2{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_3{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_4{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .footer{
+            text-align:center;
+            padding:5%;
+            }
+            .footer .row ul li{
+            display:block;
+            margin:10px 0px;
+            text-align:center;
+            }
+            .footer .row a i{
+            margin:0% 3%;
+        }
+        .rowblock{
+            display: grid;
+        }
+    }
+    
+    @media (max-width:500px) {
+        .rowblock{
+            display: grid;
+        }
+        .imageblock_1{
+            width: 200px;
+            height: 400px;
+            background-size: 100%;
+            border-radius: 10%;
+        }
+        
+        .imageblock_2{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        
+        .imageblock_3{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+        .imageblock_4{
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+        }
+    }      
