@@ -253,10 +253,9 @@ header{
     transform: translateX(0);
 }
 
-.video{
-    margin-top: 100px;
-    flex-direction: row;
- }
+/* .video{
+    margin-top: 1px;
+ } */
 
 /* <!-- HERE GONNA BE A ABOUT US  --> */
  #about_us{
