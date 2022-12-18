@@ -440,5 +440,254 @@ header{
     font-size:2em;
     margin:0% 1%;
     }
+/* MOBILE ADAPTATION */
+@media(max-width:1200px){
+    .rowblock{
+        display: grid;
+    }
+    .nameblock{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+}
 
+@media(max-width:740px) {
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .footer{
+        display:grid;
+        font-size: 15px;
+    }
+    footer .row{
+        font-size: 20px;
+        height:5%;
+    }
+    .footer .row a{
+        font-size: 12px;
+    }
+    .footer .row ul{
+        font-size: 15px;
+        width:10%;
+        margin-left:140px;
+    }
+    .footer .row a i{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:630px){
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .footer{
+        display:grid;
+        font-size: 15px;
+    }
+    footer .row{
+        font-size: 20px;
+        height:5%;
+    }
+    .footer .row a{
+        font-size: 12px;
+    }
+    .footer .row ul{
+        font-size: 15px;
+        width:10%;
+        margin-left:140px;
+    }
+    .footer .row a i{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:605px){
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .footer{
+        display:grid;
+        font-size: 15px;
+    }
+    footer .row{
+        font-size: 20px;
+        height:5%;
+    }
+    .footer .row a{
+        font-size: 12px;
+    }
+    .footer .row ul{
+        font-size: 15px;
+        width:10%;
+        margin-left:140px;
+    }
+    .footer .row a i{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:400px){
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .footer{
+        display:grid;
+        font-size: 15px;
+    }
+    footer .row{
+        font-size: 20px;
+        height:5%;
+    }
+    .footer .row a{
+        font-size: 12px;
+    }
+    .footer .row ul{
+        font-size: 15px;
+        width:10%;
+        margin-left:140px;
+    }
+    .footer .row a i{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:200px){
+    .sdu_store{
+        font-size: 23px;
+    }
+    .sdu_store p{
+        margin-top: 8px;
+    }
+    .main_logo_sdustore{
+        height:40px;
+    }
+    .header{
+        height:50px;
+    }
+    .sidebar{
+        top:80px;
+        width:250px;
+    }
+    .menu_link{
+        font-size: 35px;
+    }
+    .hamburger span{
+        height:5px;
+    }
+    .hamburger{
+        width:36px;
+        height: 36px;
+    }
+    .footer{
+        display:grid;
+        font-size: 15px;
+    }
+    footer .row{
+        font-size: 20px;
+        height:5%;
+    }
+    .footer .row a{
+        font-size: 12px;
+    }
+    .footer .row ul{
+        font-size: 15px;
+        width:10%;
+        margin-left:140px;
+    }
+    .footer .row a i{
+        font-size: 22px;
+    }
+}
     
