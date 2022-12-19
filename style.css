@@ -13,6 +13,10 @@ body{
     padding: 0 auto;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* <!-- This is gonna be header main site for SDU-Store --> */
 header{
     display: flex;
@@ -222,6 +226,7 @@ header{
 
 /* <!-- HERE GONNA BE A SIDEBAR OF SDU-STORE --> */
 
+
 .sidebar {
     position: fixed;
     top: 85px;
@@ -270,15 +275,25 @@ header{
     margin: 90px 0 0 100px;
     z-index: 2;
     color:antiquewhite;
-    flex-direction: row;
+    display: inline-block;
+    border-right: 0.15em solid purple;
+    animation:blink 0.3s step-end infinite alternate, typing 3s steps(20);
+}
+
+@keyframes blink{
+    50%{
+        border-color:transparent;
+    }
 }
 
 .main_text p{
+    display: flex;
     font-family: 'Spartan' , sans-serif;
     font-size: 20px;
     margin: 20px 0 0 100px;
     color: antiquewhite;
     flex-direction: row;
+    
 }
 
 .main_text pre{
@@ -289,6 +304,19 @@ header{
     z-index: 4;
     color:#2c2cd2;
     flex-direction: row;
+    animation: wheel-animation 2s
+    infinite;
+}
+
+@keyframes wheel-animation{
+    0%{
+        opacity: 1;
+        transform: translateY(-.9rem);
+    }
+    100%{
+        opacity: 0;
+        transform:translateY(.9rem);
+    }
 }
 
 #first_place_on_the_page{
