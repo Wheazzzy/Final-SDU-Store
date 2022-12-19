@@ -20,7 +20,7 @@ function big(element){
 }
 
 function small(element){
-    element.style.fontSize = "40px";
+    element.style.fontSize = "30px";
 }
 // -------------------------END HERE BIG SMALL------------------------------
 
@@ -65,3 +65,20 @@ function search(element){
             break;
     }
 }
+
+// function back_to_top(){
+//     let button = $('.back_to_top');
+
+//     $(window).on('scroll', ()=>{
+//         if($(this).scrollTop()>=50){
+//             button.fadeIn();
+//         }else{
+//             button.fadeOut();
+//         }
+//     });
+//     button.on('click', (e)=>{
+//         e.preventDefault();
+//         $('html').animate({scrollTop:0},1000);
+//     })
+// }
+// back_to_top();
